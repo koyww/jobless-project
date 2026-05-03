@@ -88,6 +88,13 @@
       "content": "im the GOAT",
       "createdAt": "2026-05-03T10:46:12.681Z",
       "id": "DhRvYZ9Av9o"
+    },
+    {
+      "userId": "Mx4fsV8tjBQ",
+      "name": "Lebron",
+      "content": "sample",
+      "createdAt": "2026-05-03T11:38:13.376Z",
+      "id": "SEgjcuHG5_M"
     }
   ],
   "$schema": "./node_modules/json-server/schema.json"
