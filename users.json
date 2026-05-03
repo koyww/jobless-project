@@ -1,0 +1,101 @@
+{
+  "users": [
+    {
+      "firstName": "Francis Joseph",
+      "lastName": "Wong",
+      "email": "francisjoseph.wong",
+      "password": "232323",
+      "gender": "female",
+      "dob": "2026-05-05",
+      "phone": "232323232332",
+      "status": "single",
+      "id": "24Ip60paSac"
+    },
+    {
+      "firstName": "Francis Joseph",
+      "lastName": "Wong",
+      "email": "francisjoseph.wong",
+      "password": "232323",
+      "gender": "female",
+      "dob": "2026-05-05",
+      "phone": "232323232332",
+      "status": "single",
+      "id": "D4BxluhbyTo"
+    },
+    {
+      "firstName": "Lebron",
+      "lastName": "James",
+      "email": "lebron@gmail.com",
+      "password": "lebron",
+      "gender": "gay",
+      "dob": "2026-05-02",
+      "phone": "23",
+      "status": "lebron",
+      "id": "Mx4fsV8tjBQ"
+    },
+    {
+      "firstName": "Lebron",
+      "lastName": "James",
+      "email": "lebron@gmail.com",
+      "password": "lebron",
+      "gender": "gay",
+      "dob": "2026-05-02",
+      "phone": "23",
+      "status": "lebron",
+      "id": "d2sC33sUwfc"
+    },
+    {
+      "firstName": "Juan",
+      "lastName": "Delacruz",
+      "email": "juan@gmail.com",
+      "password": "juan",
+      "gender": "gay",
+      "dob": "2026-05-04",
+      "phone": "232323232332",
+      "status": "lebron",
+      "id": "I4Mo5qIs-3I"
+    },
+    {
+      "firstName": "Juan",
+      "lastName": "Delacruz",
+      "email": "juan@gmail.com",
+      "password": "juan",
+      "gender": "gay",
+      "dob": "2026-05-04",
+      "phone": "232323232332",
+      "status": "lebron",
+      "id": "QOZR_tmrcYc"
+    }
+  ],
+  "posts": [
+    {
+      "userId": "I4Mo5qIs-3I",
+      "name": "Juan",
+      "content": "skibidi toilet",
+      "createdAt": "2026-05-03T09:05:34.856Z",
+      "id": "6W7RoUAv3B0"
+    },
+    {
+      "userId": "I4Mo5qIs-3I",
+      "name": "Juan",
+      "content": "hello lebron",
+      "createdAt": "2026-05-03T09:12:12.900Z",
+      "id": "Dgh4jqJYUpc"
+    },
+    {
+      "userId": "Mx4fsV8tjBQ",
+      "name": "Lebron",
+      "content": "im the GOAT",
+      "createdAt": "2026-05-03T10:46:12.681Z",
+      "id": "DhRvYZ9Av9o"
+    },
+    {
+      "userId": "Mx4fsV8tjBQ",
+      "name": "Lebron",
+      "content": "sample",
+      "createdAt": "2026-05-03T11:38:13.376Z",
+      "id": "SEgjcuHG5_M"
+    }
+  ],
+  "$schema": "./node_modules/json-server/schema.json"
+}
