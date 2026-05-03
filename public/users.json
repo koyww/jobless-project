@@ -8,5 +8,16 @@
     "id": 2,
     "email": "user@test.com",
     "password": "pass123"
-  }
+  },
+  {
+      "firstName": "Lebron",
+      "lastName": "James",
+      "email": "lebron@gmail.com",
+      "password": "lebron",
+      "gender": "gay",
+      "dob": "2026-05-02",
+      "phone": "23",
+      "status": "lebron",
+      "id": "Mx4fsV8tjBQ"
+    }
 ]
