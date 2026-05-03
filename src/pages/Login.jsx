@@ -23,7 +23,7 @@ function Login() {
   }
 
 
-  const res = await fetch("http://localhost:3000/users");
+  const res = await fetch("jobless-project/public/users.json");
   const users = await res.json();
 
   const user = users.find(

@@ -55,7 +55,7 @@ function Register() {
     return;
   }
 
-    const res = await fetch("http://localhost:3000/users", {
+    const res = await fetch("jobless-project/public/users.json", {
     method: "POST",
     headers: {
       "Content-Type": "application/json",
