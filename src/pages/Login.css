@@ -1,0 +1,114 @@
+@import url('https://fonts.googleapis.com/css2?family=Tangerine:wght@400;700&display=swap');
+
+.tangerine-regular {
+  font-family: "Tangerine", cursive;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.tangerine-bold {
+  font-family: "Tangerine", cursive;
+  font-weight: 700;
+  font-style: normal;
+}
+
+
+:root{
+    --white: #F9F9F9;
+    --cream: #F4F0E4;
+    --green: #44A194;
+    --blue: #537D96;
+    --red: #EC8F8D;
+    --black: #061E29;
+    
+}
+
+body{
+    background: linear-gradient( #F9F9F9 0%, #F4F0E4 100%);
+}
+
+.login {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 90vh;
+    
+    gap:60px;
+    margin-right: 100px;
+}
+
+.login-form {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    padding: 60px 30px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    background: white ;
+  
+}
+
+.login-title{
+    font-size: 40px;
+    font-weight: bold;
+    color: var(--black);
+}
+
+.login-input{
+    border-radius: 5px;
+    width: 300px;
+    height:35px;
+    border: 1px solid rgba(1, 1, 1, 0.1);
+    background: var(--white);
+    margin: 5px 0;
+    padding-left: 10px;
+}
+
+.login-input:focus{
+    background: rgb(252, 252, 252);
+    border-color: var(--blue);
+    outline:none;
+
+}
+
+.login-input::placeholder{
+    font-size: 15px;
+    
+    
+}
+
+.login-button{
+    border:none;
+    border-radius: 5px;
+    font-size: 20px;
+    background: var(--blue);
+    color: var(--white);
+    cursor: pointer;
+    height: 40px;
+    margin-top: 10px;
+}
+
+.login-button:hover{
+    background: #3d5c6e;
+
+}
+
+
+.login-text{
+    font-size: 15px;
+}
+
+.login-link{
+    font-size: 15px;
+    text-decoration: none;
+}
+
+.login-link:hover{
+    color: var(--blue);
+}
+
+.login-cursive{
+    font-family: "Tangerine", cursive;
+    font-size: 70px;
+    font-weight: bold;
+}

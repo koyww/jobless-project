@@ -1,0 +1,75 @@
+@import url('https://fonts.googleapis.com/css2?family=Tangerine:wght@400;700&display=swap');
+
+.tangerine-regular {
+  font-family: "Tangerine", cursive;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.tangerine-bold {
+  font-family: "Tangerine", cursive;
+  font-weight: 700;
+  font-style: normal;
+}
+
+
+:root{
+    --white: #F9F9F9;
+    --cream: #F4F0E4;
+    --green: #44A194;
+    --blue: #537D96;
+    --red: #EC8F8D;
+    --black: #061E29;
+    
+}
+
+
+
+
+.navbar{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 100px;
+    padding: 20px;
+    background: var(--black);
+
+
+
+}
+
+.nav-links{
+    text-decoration: none;
+    color: var(--white);
+    font-size: 40px;
+    font-weight: bold;
+    font-family: "Tangerine", cursive;
+
+}
+
+
+.nav-links:hover{
+    color: #d6d5d0;
+
+    }
+
+.logout-button{
+    border:none;
+    border-radius: 5px;
+    font-size: 20px;
+    background: #c45b59;
+    color: var(--white);
+    cursor: pointer;
+    height: 40px;
+    margin-top: 10px;
+}
+
+.logout-button:hover{
+    background:#aa4e4d;
+    
+
+}
+.nav-welcome{
+    font-size: 20px;
+    color: var(--white);
+}
