@@ -15,7 +15,7 @@ function Home(){
 
     
     const fetchPosts = async () => {
-        const res = await fetch("http://localhost:3000/posts");
+        const res = await fetch("/users.json");
         const data = await res.json();
         setPosts(data.reverse());
     };
@@ -30,7 +30,7 @@ function Home(){
             createdAt: new Date().toISOString(),
         };
 
-        await fetch("http://localhost:3000/posts",{
+        await fetch("/users.json",{
             method: "POST",
             header:{
                 "Content-Type": "application.json",
